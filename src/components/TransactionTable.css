@@ -1,0 +1,88 @@
+.table-header {
+  font-size: 16px;
+  font-weight: 500;
+  color: rgba(107, 117, 128, 1);
+  border-bottom: 1px solid rgba(160, 204, 248, 1);
+  padding-bottom: 25px;
+}
+.table-cell {
+  font-size: 16px;
+  font-weight: 500;
+  color: rgba(36, 45, 53, 1);
+}
+.income {
+  color: rgba(62, 189, 147, 1);
+}
+.expense {
+  color: rgba(239, 78, 78, 1);
+}
+.description-cell {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(36, 45, 53, 1);
+}
+.transaction-table {
+  width: 100%;
+  padding: 40px;
+}
+.table-body {
+  line-height: 40px;
+}
+@media (max-width: 1023px) {
+  .table-header,
+  .table-cell,
+  .description-cell {
+    font-size: 18px;
+  }
+}
+@media (max-width: 767px) {
+  .table-head {
+    display: none;
+  }
+  .table-row:nth-last-child(-n + 3) {
+    display: none;
+  }
+  .table-row {
+    background-color: rgba(250, 250, 251, 1);
+    width: 90%;
+    height: 78px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  .transaction-table {
+    border-spacing: 0;
+    max-width: 100%;
+    padding: 0;
+  }
+  .table-body {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+  .description-cell,
+  .table-cell {
+    font-size: 14px;
+  }
+  .description-cell {
+    order: 1;
+    position: absolute;
+    right: 20px;
+    top: 40%;
+  }
+  .income,
+  .expense {
+    order: 4;
+    position: absolute;
+    top: 5px;
+    left: 20px;
+  }
+  .table-date {
+    position: absolute;
+    right: 20px;
+    padding-bottom: 30px;
+  }
+}
