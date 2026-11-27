@@ -1,150 +1,93 @@
 export const transactions = [
   {
     id: 1,
-    date: '۱۴۰۴/۰۶/۳۱',
+    date: '1404/06/31',
     description: 'قسط آخر پروژه کاریار',
-    amount: '۳,۱۰۰,۰۰۰',
+    amount: '3,100,000',
     type: 'income',
   },
   {
     id: 2,
-    date: '۱۴۰۴/۰۶/۲۷',
+    date: '1404/06/27',
     description: 'خرید لباس',
-    amount: '۱,۲۳۰,۰۰۰',
+    amount: '1,230,000',
     type: 'expense',
   },
   {
     id: 3,
-    date: '۱۴۰۴/۰۶/۲۵',
+    date: '1404/06/25',
     description: 'سود سپرده',
-    amount: '۱۷,۰۰۰',
+    amount: '17,000',
     type: 'income',
   },
   {
     id: 4,
-    date: '۱۴۰۴/۰۶/۲۰',
+    date: '1404/06/20',
     description: 'غذا',
-    amount: '۴۴۰,۰۰۰',
+    amount: '440,000',
     type: 'expense',
   },
   {
     id: 5,
-    date: '۱۴۰۴/۰۶/۱۴',
+    date: '1404/06/14',
     description: 'سوپرمارکت',
-    amount: '۵۶۲,۲۰۰',
+    amount: '562,200',
     type: 'expense',
   },
   {
     id: 6,
-    date: '۱۴۰۴/۰۶/۰۶',
+    date: '1404/06/06',
     description: 'پارکینگ',
-    amount: '۱۳۶,۰۰۰',
+    amount: '136,000',
     type: 'expense',
   },
   {
     id: 7,
-    date: '۱۴۰۴/۰۶/۰۴',
+    date: '1404/06/04',
     description: 'شارژ ایرانسل',
-    amount: '۵۵,۰۰۰',
+    amount: '55,000',
     type: 'expense',
   },
   {
     id: 8,
-    date: '۱۴۰۴/۰۶/۰۱',
+    date: '1404/06/01',
     description: 'کادو تولد',
-    amount: '۵,۰۰۰,۰۰۰',
+    amount: '5,000,000',
     type: 'income',
   },
   {
     id: 9,
-    date: '۱۴۰۴/۰۵/۲۵',
+    date: '1404/05/25',
     description: 'دندان‌پزشکی',
-    amount: '۹,۸۰۰,۰۰۰',
+    amount: '9,800,000',
     type: 'expense',
   },
   {
     id: 10,
-    date: '۱۴۰۴/۰۵/۲۰',
+    date: '1404/05/20',
     description: 'غذا',
-    amount: '۲۵۰,۰۰۰',
+    amount: '250,000',
     type: 'expense',
   },
   {
     id: 11,
-    date: '۱۴۰۴/۰۵/۱۷',
+    date: '1404/05/17',
     description: 'سوپرمارکت',
-    amount: '۷۵۸,۰۰۰',
+    amount: '758,000',
     type: 'expense',
   },
   {
     id: 12,
-    date: '۱۴۰۴/۰۵/۱۷',
+    date: '1404/05/17',
     description: 'غذا',
-    amount: '۱۱۰,۰۰۰',
+    amount: '110,000',
     type: 'expense',
   },
   {
     id: 13,
-    date: '۱۴۰۴/۰۵/۱۶',
+    date: '1404/05/16',
     description: 'قسط سوم پروژه کاریار',
-    amount: '۳,۱۰۰,۰۰۰',
+    amount: '3,100,000',
     type: 'income',
   },
 ];
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/**/ 
