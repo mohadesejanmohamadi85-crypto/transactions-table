@@ -34,10 +34,11 @@ body {
   justify-content: center;
 }
 .page-title {
-  font-weight: 500;
+  font-family: 'vazirmatn', sans-serif;
+  font-weight: 700;
   font-size: 20px;
   color: rgba(36, 45, 53, 1);
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 .table-container {
   width: 100%;
@@ -46,12 +47,15 @@ body {
   border-radius: 16px;
   margin: 50px 0;
 }
+.mobile-only-unit {
+  display: none;
+}
 .table-header {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 500;
   color: rgba(107, 117, 128, 1);
   border-bottom: 1px solid rgba(160, 204, 248, 1);
-  padding-bottom: 25px;
+  padding-bottom: 15px;
 }
 .table-cell {
   font-size: 15px;
@@ -71,7 +75,7 @@ body {
 }
 .transaction-table {
   width: 100%;
-  padding: 40px;
+  padding: 25px;
   border-spacing: 0;
 }
 .table-body {
@@ -91,6 +95,9 @@ body {
 }
 /*موبایل*/
 @media (max-width: 767px) {
+  .mobile-only-unit {
+    display: flex;
+  }
   .table-container {
     max-width: 100%;
     display: flex;
@@ -148,6 +155,8 @@ body {
     position: absolute;
     top: 5px;
     left: 20px;
+    display: flex;
+    gap: 5px;
   }
   .table-date {
     position: absolute;
@@ -155,3 +164,5 @@ body {
     padding-bottom: 30px;
   }
 }
+
+/**/

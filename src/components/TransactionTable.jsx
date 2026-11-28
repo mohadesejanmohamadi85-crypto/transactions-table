@@ -19,10 +19,26 @@ const TransactionTable = () => {
               <tr key={item.id} className="table-row">
                 <td className="table-cell table-date">{item.date}</td>
                 <td className="income table-cell">
-                  {item.type === 'income' ? `${item.amount}+` : ''}
+                  {item.type === 'income' ? (
+                    <>
+                      {' '}
+                      {item.amount}+{' '}
+                      <span className="mobile-only-unit">تومان</span>
+                    </>
+                  ) : (
+                    ''
+                  )}
                 </td>
                 <td className="expense table-cell">
-                  {item.type === 'expense' ? `${item.amount}-` : ''}
+                  {item.type === 'expense' ? (
+                    <>
+                      {' '}
+                      {item.amount}-
+                      <span className="mobile-only-unit">تومان</span>{' '}
+                    </>
+                  ) : (
+                    ''
+                  )}
                 </td>
                 <td className="description-cell">{item.description}</td>
               </tr>
@@ -35,64 +51,4 @@ const TransactionTable = () => {
 };
 export default TransactionTable;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/**/ 
+/***/
